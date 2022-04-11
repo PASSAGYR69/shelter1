@@ -1,0 +1,800 @@
+$background: linear-gradient(135deg, #503f32, #222020) ;
+$color-primary:  #F1CDB3;
+$color-light-l: #F6F6F6;
+$color-dark-l: #545454;
+$color-light-s: #FAFAFA;
+
+
+
+
+
+
+body{
+    background-color: rgb(100, 0, 0);
+    margin: 0;
+}
+
+h3{
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.h3-footer{
+
+        font-family: Georgia;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        color:#FFFFFF
+
+}
+
+
+.container{
+   // max-width: 1280px;
+    margin: 0 auto;
+   // padding-left: 40px;
+   // padding-right: 40px;
+    background: $background ;
+    
+    .header-container{
+        max-width: 1280px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+        a{
+            text-decoration: none;
+        }
+    
+        h1{
+            margin-bottom: 10px;
+            font-family: Georgia;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0.06em;
+            color: $color-primary;
+            text-decoration: none;
+
+    
+        }
+        .logo-description{
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+        }
+    
+        .navigation{    
+            margin-top: 20px;
+        }
+    
+        .header-ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type:none ;
+            align-items: center;
+    
+            li{
+                margin-left: 35px;
+                font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 160%;
+                color: #CDCDCD;
+
+                a{
+                    font-family: 'Arial';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 160%;
+                    color: #CDCDCD;
+                    text-decoration: none;
+                }
+                a:hover{
+                    cursor: pointer;
+                }
+                a:hover:after{
+                    position: relative;
+                    display: block;
+                    content: '';
+                    top: 0px;
+                    left: 0;
+                    width: 100%;
+                    height: 3px;
+                    background-color: $color-primary;
+                }
+    
+    
+                .a-about{
+                    position: relative;
+                    top: 2px;
+                    font-family: 'Arial';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 160%;
+                    color: #FAFAFA;;
+                    text-decoration: none;
+                }
+                .a-about:after{
+                    position: relative;
+                    display: block;
+                    content: '';
+                    top: 0px;
+                    left: 0;
+                    width: 100%;
+                    height: 3px;
+                    background-color: $color-primary;
+                }
+
+            }
+
+    
+        }
+    }
+    .main-page{
+        max-width: 1280px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0 auto;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .description-main-page{
+            max-width: 460px;
+            max-height: 322px;
+            padding-top: 173px;
+            display:flex;
+            flex-direction: column;
+            flex-shrink: 3;
+
+            .not-only{
+                max-width: 310px;
+                font-family: Georgia;
+                font-size: 44px;
+                font-weight: 400;
+                line-height: 57px;
+                letter-spacing: 0em;
+                color: #FFFFFF;
+                margin-bottom: 28px;
+            }
+            .we-offer{
+                font-family: Arial;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #CDCDCD;
+                margin-bottom: 25px;
+
+            }
+            button{
+                width: 207px;
+                height: 52px;
+                border-radius: 45px;
+                border:none;
+                background-color: $color-primary;
+                font-family: Georgia;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0.06em;
+                color:  #292929;
+                cursor: pointer;
+
+            }
+            button:hover{
+                //position: relative;
+                //bottom: 10px;
+                border:#CDCDCD 2px solid;
+                background-color: transparent;
+                color: #CDCDCD;
+                box-shadow: 3px 5px 4px 3px rgba(2, 0, 0, 0.2);
+            }
+
+
+        }
+
+      
+
+        .first-cute-dog{
+            display: block;
+            width: 698px;
+            height: 728px;
+            background-image: url(assets/start-screen-puppy.svg);
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.about-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    padding-left: 17%;
+    padding-right: 17%;
+    background:  #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+  
+    .cat-dog-svg{
+        display: block;
+        width: 300px;
+        height: 408px;
+        background-image: url(assets/about-pets.svg);
+        background-repeat: no-repeat;
+        padding-right: 50px;
+    }
+
+    .about-shelter-text{
+        flex-shrink: 5;
+        display: flex;
+        flex-direction: column;
+        max-width: 430px;
+        padding-left: 50px;
+
+        .h3-about{
+            margin-top: 14px;
+            margin-bottom: 12px;
+            max-width: 350px;
+        }
+        p{
+            font-family: 'Arial';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 160%;
+                color: #4C4C4C;
+        }
+    }
+}
+
+.wrapper-our-friends{
+    width: 100%;
+    background-color: $color-light-l;
+    
+
+    .our-friends{
+    max-width: 1280px;   // 1080px
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    background-color: $color-light-l;
+
+    .h3-our-friends{
+        display: block;
+        width: 400px;
+        height: 90px;
+        text-align: center;
+
+
+    }
+
+    .dogs-and-arrows{
+        padding-top: 25px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .div-arrow{
+            width: 38px;
+            height: 40px;
+            border: 2px solid #F1CDB3;
+            border-radius: 50%;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 18px;
+            padding-top: 15px;
+        }
+        .div-arrow:hover{
+            background-color: #dfdbdb;
+            border: 2px solid $color-light-l;
+            cursor: pointer;
+
+        }
+
+
+        .dogs-slider{
+            max-width: 1080px;
+            display: grid;
+            //column-gap: 7%;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: 
+                "cat jen wood";
+
+            .cat{
+                grid-area: cat;
+            }
+            .jen{
+                grid-area: jen;
+            }
+            .wood{
+                grid-area: wood;
+            }
+
+
+        }
+
+        .pet-slide{
+            width: 270px;
+            height: 435px;
+            background-color: #FFFFFF;
+            margin-left: 45px;
+            margin-right: 45px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: $color-light-s;
+
+            .katrine-svg{
+                display: block;
+                width: 270px;
+                height: 270px;
+                background-image: url('assets/pets-katrine.svg');
+            }
+            .pet-name{
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+            }
+            .learn-more{
+                width: 187px;
+                height: 52px;
+                border: 2px solid $color-primary;
+                border-radius: 26px;
+                margin-bottom: 18px;
+                font-family: 'Georgia';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 130%;
+                letter-spacing: 0.06em;
+                background-color: $color-light-s;
+                color: #292929;
+            }
+            .learn-more:hover{
+                background-color: #dfdbdb;
+                cursor: pointer;
+            }
+
+            .jennifer-svg{
+                display: block;
+                width: 270px;
+                height: 270px;
+                background-image: url('assets/pets-jennifer.svg');
+            }
+
+            .woody-svg{
+                display: block;
+                width: 270px;
+                height: 270px;
+                background-image: url('assets/pets-woody.svg');
+            }
+
+
+
+
+        }
+
+    }
+
+    .get-to-know{
+        width: 261px;
+        height: 52px;
+        background-color: $color-primary;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #292929;
+        border: none;
+        border-radius: 26px;
+    }
+    .get-to-know:hover{
+        position: relative;
+        bottom: 2px ;
+        right: 1px;
+        //border: #222020 2px solid;
+        //background-color: #b89c86;     //#b4947c
+        //: $color-light-l;
+        box-shadow: 2px 4px 4px 3px rgb(2 0 0 / 20%);
+    }
+
+    }
+}
+
+.wrapper-how-you-can{
+    width: 100%;
+    background-color: #FFFFFF;
+
+    .how-you-can{
+
+        max-width: 1280px;   // 1080px
+        margin: 0 auto;
+        padding-top: 45px;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-bottom: 50px;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+    
+    
+        .h3-how-you-can{
+            width: 320px;
+            height: 90px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    
+        .types-helps{
+            min-height: 350px;
+            max-width: 1090px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+        
+    
+            .help-note{
+                text-align: center;
+                font-family: Georgia;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23px;
+                letter-spacing: 0.06em;
+                text-align: center;
+            }
+    
+            .one-help{
+                width: 166px;
+                height: 113px;
+                background-color: #FFFFFF;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 10px;
+                margin-left: 10px;
+    
+                justify-content: space-between;
+            
+            
+            .svg-foot{
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-pet-food.svg);
+            }
+            .svg-transp {
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-transportation.svg);
+            }    
+            .svg-toys {
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-toys.svg);
+            } 
+            .svg-bowls {
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-bowls-and-cups.svg);
+            } 
+            .svg-shampoons {
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-shampoos.svg);
+            } 
+            .svg-vitamins {
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-vitamins.svg);
+            } 
+            .svg-med {
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-medicines.svg);
+            } 
+            .svg-collars {
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-collars-leashes.svg);
+            } 
+            .svg-sleep {
+                width: 60px;
+                height: 60px;
+                background-image: url(assets/helps-svg/icon-sleeping-area.svg);
+            } 
+    
+            }
+    
+    
+        }
+    }
+}
+
+.wrapper-you-can-also{
+    width: 100%;
+    background-color: $color-light-l;
+
+    .you-can-also-section{
+        max-width: 920px;   // 1080px
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 84px;
+        background: $color-light-l;
+        display:grid;
+        column-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "ginger-dog donat-info";
+        justify-items: start;
+
+        .svg-psa{
+            display: block;
+            width: 505px;
+            height: 261px;
+            background-image: url(assets/donation-dog.svg);
+            background-repeat: no-repeat;
+            margin-top: 20px;
+        }
+
+        .you-can-also-block{
+            display: block;
+
+
+            .you-can{
+                max-width: 300px;
+                margin-top: 5px;
+                margin-bottom: 20px;
+
+            }
+
+            .name-bank-form{
+                //styleName: h5;
+                font-family: Georgia;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 0.06em;
+                text-align: left;
+                color: #545454;
+                margin-bottom: 20px;
+
+            }
+
+            .cod-of-card{
+                max-width: 349px;
+                height: 33px;
+                background-color: $color-primary;
+                border-radius: 10px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                padding-top: 10px;
+
+                .svg-card{
+  
+                    width: 30px;
+                    height: 23px;
+                    background-image: url(assets/credit-card.svg);
+         
+                }
+
+                .digitals-card{
+                    //styleName: h4;
+                    font-family: Georgia;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    letter-spacing: 0.06em;
+                    text-align: left;
+                    color: #545454;
+
+                }
+            }
+
+            .legal-info{
+                font-family: Arial;
+                font-size: 12px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #B2B2B2;
+
+                p{
+                    margin-top: 20px;
+                }
+
+            }
+        }
+
+    }
+}
+
+.wrapper-footer{
+    margin: 0 auto;
+    background: $background ;
+
+    footer{
+        max-width: 1280px;
+        max-height: 350px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+        display: grid;
+        row-gap: 55px;
+        column-gap: 150px;
+        grid-template-rows: 90px 20px 20px;
+        grid-template-columns : 25% 25% 25%;
+        grid-template-areas: 
+        "for we dog"
+        "email adr-1 dog"
+        "num adr-2 dog";
+
+        justify-items: start;
+
+
+        .for-questions{
+            grid-area: for;
+        }
+        .email{
+            grid-area: email;
+        }
+        .number{
+            grid-area: num;
+        }
+        .we-are-waiting{
+            grid-area: we;
+        }
+        .adress-1{
+            grid-area: adr-1;
+        }
+        .adress-2{
+            grid-area: adr-2;
+        }
+        .svg-dog{
+            grid-area: dog;
+
+            width: 300px;
+            height: 300px;
+            color: $color-primary;
+            background-image: url(assets/footer-puppy.svg);
+        }
+
+        .svg-icon-footer{
+            width: 40px;
+            height: 32px;
+            background-repeat: no-repeat;
+
+        }
+
+        .svg-email{
+            background-image: url(assets/mail.svg);
+        }
+        .svg-number{
+            background-image: url(assets/phone.svg);
+        }
+        .adress1{
+            background-image: url(assets/icon-marker.svg);
+        }
+        .adress2{
+            background-image: url(assets/icon-marker.svg);
+        }
+
+        
+        .footer-text{
+            //styleName: h4;
+            font-family: Georgia;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0.06em;
+            text-align: left;
+            color: #F1CDB3;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            p{
+                padding-left: 15px;
+            }
+        }
+    }
+}
+
+
+
+
+/*
+.container{
+   // max-width: 1280px;
+    margin: 0 auto;
+   // padding-left: 40px;
+   // padding-right: 40px;
+    background: $background ;
+    
+    .header-container{
+        max-width: 1280px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+
+
+
+@import 'add';
+
+$background-colour: rgb(26, 66, 35);
+
+$primary-font: Arial, serif;
+
+$primary-font-size: 48px;
+
+%message {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: $background-colour;
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+    @extend %message;
+}
+
+ul {
+    li {
+        margin: 10px 20px;
+    }
+    a {
+        color: #022000 ;
+    }
+}
+*/

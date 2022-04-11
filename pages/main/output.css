@@ -1,0 +1,672 @@
+body {
+  background-color: #640000;
+  margin: 0;
+}
+
+h3 {
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.h3-footer {
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.container {
+  margin: 0 auto;
+  background: linear-gradient(135deg, #503f32, #222020);
+}
+.container .header-container {
+  max-width: 1280px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.container .header-container a {
+  text-decoration: none;
+}
+.container .header-container h1 {
+  margin-bottom: 10px;
+  font-family: Georgia;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  text-decoration: none;
+}
+.container .header-container .logo-description {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.container .header-container .navigation {
+  margin-top: 20px;
+}
+.container .header-container .header-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+.container .header-container .header-ul li {
+  margin-left: 35px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
+}
+.container .header-container .header-ul li a {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
+  text-decoration: none;
+}
+.container .header-container .header-ul li a:hover {
+  cursor: pointer;
+}
+.container .header-container .header-ul li a:hover:after {
+  position: relative;
+  display: block;
+  content: "";
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #F1CDB3;
+}
+.container .header-container .header-ul li .a-about {
+  position: relative;
+  top: 2px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.container .header-container .header-ul li .a-about:after {
+  position: relative;
+  display: block;
+  content: "";
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #F1CDB3;
+}
+.container .main-page {
+  max-width: 1280px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .main-page .description-main-page {
+  max-width: 460px;
+  max-height: 322px;
+  padding-top: 173px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 3;
+}
+.container .main-page .description-main-page .not-only {
+  max-width: 310px;
+  font-family: Georgia;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+.container .main-page .description-main-page .we-offer {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #CDCDCD;
+  margin-bottom: 25px;
+}
+.container .main-page .description-main-page button {
+  width: 207px;
+  height: 52px;
+  border-radius: 45px;
+  border: none;
+  background-color: #F1CDB3;
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  cursor: pointer;
+}
+.container .main-page .description-main-page button:hover {
+  border: #CDCDCD 2px solid;
+  background-color: transparent;
+  color: #CDCDCD;
+  box-shadow: 3px 5px 4px 3px rgba(2, 0, 0, 0.2);
+}
+.container .main-page .first-cute-dog {
+  display: block;
+  width: 698px;
+  height: 728px;
+  background-image: url(../../assets/start-screen-puppy.svg);
+  background-repeat: no-repeat;
+}
+
+.about-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  padding-left: 17%;
+  padding-right: 17%;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.about-section .cat-dog-svg {
+  display: block;
+  width: 300px;
+  height: 408px;
+  background-image: url(../../assets/about-pets.svg);
+  background-repeat: no-repeat;
+  padding-right: 50px;
+}
+.about-section .about-shelter-text {
+  flex-shrink: 5;
+  display: flex;
+  flex-direction: column;
+  max-width: 430px;
+  padding-left: 50px;
+}
+.about-section .about-shelter-text .h3-about {
+  margin-top: 14px;
+  margin-bottom: 12px;
+  max-width: 350px;
+}
+.about-section .about-shelter-text p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4C4C4C;
+}
+
+.wrapper-our-friends {
+  width: 100%;
+  background-color: #F6F6F6;
+}
+.wrapper-our-friends .our-friends {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+.wrapper-our-friends .our-friends .h3-our-friends {
+  display: block;
+  width: 400px;
+  height: 90px;
+  text-align: center;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .div-arrow {
+  width: 38px;
+  height: 40px;
+  border: 2px solid #F1CDB3;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 18px;
+  padding-top: 15px;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .div-arrow:hover {
+  background-color: #dfdbdb;
+  border: 2px solid #F6F6F6;
+  cursor: pointer;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .dogs-slider {
+  max-width: 1080px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "cat jen wood";
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .dogs-slider .cat {
+  grid-area: cat;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .dogs-slider .jen {
+  grid-area: jen;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .dogs-slider .wood {
+  grid-area: wood;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .pet-slide {
+  width: 270px;
+  height: 435px;
+  background-color: #FFFFFF;
+  margin-left: 45px;
+  margin-right: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .pet-slide .katrine-svg {
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-image: url("../../assets/pets-katrine.svg");
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .pet-slide .pet-name {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .pet-slide .learn-more {
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 26px;
+  margin-bottom: 18px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  background-color: #FAFAFA;
+  color: #292929;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .pet-slide .learn-more:hover {
+  background-color: #dfdbdb;
+  cursor: pointer;
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .pet-slide .jennifer-svg {
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-image: url("../../assets/pets-jennifer.svg");
+}
+.wrapper-our-friends .our-friends .dogs-and-arrows .pet-slide .woody-svg {
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-image: url("../../assets/pets-woody.svg");
+}
+.wrapper-our-friends .our-friends .get-to-know {
+  width: 261px;
+  height: 52px;
+  background-color: #F1CDB3;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  border: none;
+  border-radius: 26px;
+}
+.wrapper-our-friends .our-friends .get-to-know:hover {
+  position: relative;
+  bottom: 2px;
+  right: 1px;
+  box-shadow: 2px 4px 4px 3px rgba(2, 0, 0, 0.2);
+}
+
+.wrapper-how-you-can {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.wrapper-how-you-can .how-you-can {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 50px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-how-you-can .how-you-can .h3-how-you-can {
+  width: 320px;
+  height: 90px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.wrapper-how-you-can .how-you-can .types-helps {
+  min-height: 350px;
+  max-width: 1090px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.wrapper-how-you-can .how-you-can .types-helps .help-note {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help {
+  width: 166px;
+  height: 113px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-foot {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-pet-food.svg);
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-transp {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-transportation.svg);
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-toys {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-toys.svg);
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-bowls {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-bowls-and-cups.svg);
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-shampoons {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-shampoos.svg);
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-vitamins {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-vitamins.svg);
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-med {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-medicines.svg);
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-collars {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-collars-leashes.svg);
+}
+.wrapper-how-you-can .how-you-can .types-helps .one-help .svg-sleep {
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/helps-svg/icon-sleeping-area.svg);
+}
+
+.wrapper-you-can-also {
+  width: 100%;
+  background-color: #F6F6F6;
+}
+.wrapper-you-can-also .you-can-also-section {
+  max-width: 920px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 84px;
+  background: #F6F6F6;
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "ginger-dog donat-info";
+  justify-items: start;
+}
+.wrapper-you-can-also .you-can-also-section .svg-psa {
+  display: block;
+  width: 505px;
+  height: 261px;
+  background-image: url(../../assets/donation-dog.svg);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+.wrapper-you-can-also .you-can-also-section .you-can-also-block {
+  display: block;
+}
+.wrapper-you-can-also .you-can-also-section .you-can-also-block .you-can {
+  max-width: 300px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.wrapper-you-can-also .you-can-also-section .you-can-also-block .name-bank-form {
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #545454;
+  margin-bottom: 20px;
+}
+.wrapper-you-can-also .you-can-also-section .you-can-also-block .cod-of-card {
+  max-width: 349px;
+  height: 33px;
+  background-color: #F1CDB3;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.wrapper-you-can-also .you-can-also-section .you-can-also-block .cod-of-card .svg-card {
+  width: 30px;
+  height: 23px;
+  background-image: url(../../assets/credit-card.svg);
+}
+.wrapper-you-can-also .you-can-also-section .you-can-also-block .cod-of-card .digitals-card {
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #545454;
+}
+.wrapper-you-can-also .you-can-also-section .you-can-also-block .legal-info {
+  font-family: Arial;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #B2B2B2;
+}
+.wrapper-you-can-also .you-can-also-section .you-can-also-block .legal-info p {
+  margin-top: 20px;
+}
+
+.wrapper-footer {
+  margin: 0 auto;
+  background: linear-gradient(135deg, #503f32, #222020);
+}
+.wrapper-footer footer {
+  max-width: 1280px;
+  max-height: 350px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 55px;
+  column-gap: 150px;
+  grid-template-rows: 90px 20px 20px;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-areas: "for we dog" "email adr-1 dog" "num adr-2 dog";
+  justify-items: start;
+}
+.wrapper-footer footer .for-questions {
+  grid-area: for;
+}
+.wrapper-footer footer .email {
+  grid-area: email;
+}
+.wrapper-footer footer .number {
+  grid-area: num;
+}
+.wrapper-footer footer .we-are-waiting {
+  grid-area: we;
+}
+.wrapper-footer footer .adress-1 {
+  grid-area: adr-1;
+}
+.wrapper-footer footer .adress-2 {
+  grid-area: adr-2;
+}
+.wrapper-footer footer .svg-dog {
+  grid-area: dog;
+  width: 300px;
+  height: 300px;
+  color: #F1CDB3;
+  background-image: url(../../assets/footer-puppy.svg);
+}
+.wrapper-footer footer .svg-icon-footer {
+  width: 40px;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+.wrapper-footer footer .svg-email {
+  background-image: url(../../assets/mail.svg);
+}
+.wrapper-footer footer .svg-number {
+  background-image: url(../../assets/phone.svg);
+}
+.wrapper-footer footer .adress1 {
+  background-image: url(../../assets/icon-marker.svg);
+}
+.wrapper-footer footer .adress2 {
+  background-image: url(../../assets/icon-marker.svg);
+}
+.wrapper-footer footer .footer-text {
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #F1CDB3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper-footer footer .footer-text p {
+  padding-left: 15px;
+}
+
+/*
+.container{
+   // max-width: 1280px;
+    margin: 0 auto;
+   // padding-left: 40px;
+   // padding-right: 40px;
+    background: $background ;
+
+    .header-container{
+        max-width: 1280px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+
+
+
+@import 'add';
+
+$background-colour: rgb(26, 66, 35);
+
+$primary-font: Arial, serif;
+
+$primary-font-size: 48px;
+
+%message {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: $background-colour;
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+    @extend %message;
+}
+
+ul {
+    li {
+        margin: 10px 20px;
+    }
+    a {
+        color: #022000 ;
+    }
+}
+*/
+
+/*# sourceMappingURL=output.css.map */
