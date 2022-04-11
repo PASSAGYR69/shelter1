@@ -200,6 +200,36 @@ h3 {
   height: 270px;
   background-image: url("../assets/pets-woody.svg");
 }
+.wrapper-main-pets-block section .pet-slide .sof-svg {
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-image: url("../assets/pets-katrine (1).svg");
+}
+.wrapper-main-pets-block section .pet-slide .tim-svg {
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-image: url("../assets/pets-timmy.svg");
+}
+.wrapper-main-pets-block section .pet-slide .char {
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-image: url("../assets/pets-charly.svg");
+}
+.wrapper-main-pets-block section .pet-slide .scar {
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-image: url("../assets/pets-scarlet.svg");
+}
+.wrapper-main-pets-block section .pet-slide .fred {
+  display: block;
+  width: 270px;
+  height: 270px;
+  background-image: url("../assets/pets-katrine (2).svg");
+}
 .wrapper-main-pets-block section .pet-slide:hover {
   background-color: #FFFFFF;
   cursor: pointer;
