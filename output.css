@@ -1079,7 +1079,7 @@ a {
     grid-template-columns: 100%;
     grid-template-rows: 70px 30px 30px 70px 30px 55px 270px;
     grid-template-areas: "for" "email" "num" "we" "adr-1" "adr-2" "dog";
-    justify-items: start;
+    justify-items: center;
   }
   .wrapper-footer footer .h3-footer {
     font-size: 25px;

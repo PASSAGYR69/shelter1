@@ -46,15 +46,11 @@ a{
     background-color: #503f32;
 }
 
-// .slick-list {
 
-//     overflow: visible !important;}
+
 
 .container{
-   // max-width: 1280px;
     margin: 0 auto;
-   // padding-left: 40px;
-   // padding-right: 40px;
     background: $background ;
     
     .header-container{
@@ -335,36 +331,13 @@ a{
 
         .dogs-slider{
             max-width: 1080px;
-            // display: grid;
-            // //column-gap: 7%;
-            // grid-template-columns: 1fr 1fr 1fr;
-            // grid-template-areas: 
-            //     "cat jen wood";
-            // column-gap: 5%;
-
-            // .cat{
-            //     grid-area: cat;
-            // }
-            // .jen{
-            //     grid-area: jen;
-            // }
-            // .wood{
-            //     grid-area: wood;
-            // }
-
 
         }
-
-        // .slick-slide{
-        //     margin: 0 45px;
-        // }
 
         .pet-slide{
             width: 270px ;
             height: 435px;
             background-color: #FAFAFA;
-           // margin-left: 45px;
-           // margin-right: 45px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -751,7 +724,6 @@ a{
 
         
         .footer-text{
-            //styleName: h4;
             font-family: Georgia;
             font-size: 20px;
             font-weight: 400;
@@ -1274,7 +1246,7 @@ h3{    font-family: Georgia;
             "adr-1"
             "adr-2"
             "dog";
-            justify-items: start;
+            justify-items: center;
 
             .h3-footer{
 
