@@ -1,7 +1,7 @@
 [
     {
       "name": "Jennifer",
-      "img": "https://raw.githubusercontent.com/PASSAGYR69/shelter1/main/assets/about-pets.png",
+      "img": "../assets/pets-jennifer.svg",
       "type": "Dog",
       "breed": "Labrador",
       "description": "Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Charly",
-      "img": "/assets/pets-charly.svg",
+      "img": "../assets/pets-charly.svg",
       "type": "Dog",
       "breed": "Jack Russell Terrier",
       "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
